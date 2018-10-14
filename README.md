@@ -17,16 +17,10 @@ En résumé, notre campagne de test subjectif prend en compte plusieurs aspects 
    04) Réplication des séquences vidéo}: Les mêmes séquences vidéo ainsi que les mêmes paramètres sont présentés à plusieurs sujets (utilisateurs). Le nombre de séquences utilisées est de deux et elles ont une durée de $60$ secondes. Elles ont été extraites de la vidéo originale  "Big Buck Bunny" couramment utilisée. Les deux séquences vidéo sont encodées dans les mêmes représentations (débit binaire vidéo) à l'aide du codec H.$264$. La table (\ref{Lqualities}) présente les différentes représentations utilisées.
 
 
-Qualité | Débit binaire vidéo | Résolution | Images/seconde | Codec|  
-\hline
-  6(1080p30) |   $4$ Mb/s | $1920$ x $1080$ | $15$/$25$/$30$ & H264
-
-  5(720p30) |   $2$ Mb/s & $1280$ x $720$   | $15$/$25$/$30$ & H264
-  
-  4(480p30) |   $1$ Mb/s | $640$ x $480$   | $15$/$25$/$30$ & H264 
-
-  3(360p30) |   $500$ Kb/s | $512$ x $360$  | $15$/$25$/$30$ & H264 
-
- 2(240p30) |   $250$ Kb/s  | $320$ x $240$ | $15$/$30$ & H264 
- 
- 1(144p10) |  $125$ Kb/s   | $256$ x $144$  | $10$ & H264
+ |Qualité | Débit binaire vidéo | Résolution | Images/seconde   | Codec|  
+ | 6(1080p30)|   $4$ Mb/s    | $1920$ x $1080$ | $15$/$25$/$30$ | H264 |
+ | 5(720p30) |   $2$ Mb/s    | $1280$ x $720$  | $15$/$25$/$30$ | H264 |
+ | 4(480p30) |   $1$ Mb/s    | $640$ x $480$   | $15$/$25$/$30$ | H264 |
+ | 3(360p30) |   $500$ Kb/s  | $512$ x $360$   | $15$/$25$/$30$ | H264 |
+ | 2(240p30) |   $250$ Kb/s  | $320$ x $240$   | $15$/$30$      | H264 | 
+ |1(144p10)  |  $125$ Kb/s   | $256$ x $144$   | $10$           | H264 |
